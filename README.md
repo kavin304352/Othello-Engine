@@ -5,7 +5,7 @@
 
 ## Overview
 
-This project implements a search-based Othello (Reversi) engine using classical AI techniques. The core logic relies on **minimax** and **negamax** algorithms enhanced with **alpha-beta pruning** to optimize move selection and computational efficiency.
+This project implements a search based Othello (Reversi) engine using classical AI techniques. The core logic relies on **minimax** and **negamax** algorithms enhanced with **alpha-beta pruning** to optimize move selection and computational efficiency.
 
 The engine evaluates possible future board states using a custom heuristic function that considers **positional advantage**, **disc parity**, **corner control**, and **mobility**.
 
@@ -15,7 +15,7 @@ The engine evaluates possible future board states using a custom heuristic funct
 - **Alpha-beta pruning** for pruning unpromising branches  
 - **Heuristic evaluation** using game-specific board weights  
 - Tested over 500 matches with a **73% win rate** against human players and baseline bots  
-- Efficient depth-limited search with optional iterative deepening
+- Efficient depth limited search with optional iterative deepening
 
 ## Future Work
 
@@ -23,7 +23,7 @@ The engine evaluates possible future board states using a custom heuristic funct
 - Integrate with benchmarking suite for strategy comparison  
 - Optional multiplayer support via socket or REST endpoints
 
-## Usage
+## Run Locally
 
 ```bash
 python3 othello_engine.py
